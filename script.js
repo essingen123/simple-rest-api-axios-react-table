@@ -12,7 +12,8 @@ class App extends React.Component {
             var items = this.state.items;
             // var url = "http://127.0.0.1:5555/employees2.json";
             // var url = "http://127.0.0.1:5555/employees.json";
-            var url = "http://dummy.restapiexample.com/api/v1/employees";
+            // var url = "http://dummy.restapiexample.com/api/v1/employees";
+            var url = "https://dummy.restapiexample.com/api/v1/employees";
             // axios.get('http://127.0.0.1:5555/employees2.json').
 
             let retries = 0;
